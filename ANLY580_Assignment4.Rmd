@@ -118,6 +118,13 @@ This is the example to use ggplot2, which is one decent tool in R to visualize t
 ```
 ## Vishwanath Kuma	Maharajapuram Ramachandran
 ## Jai	Rajora
+This is an example using the lattice package and making use of the iris data set.
+```{r echo=TRUE}
+library("lattice")#Load Library
+ xyplot(Sepal.Length~Sepal.Width | Species,data=iris)
+ bwplot(Sepal.Length~Sepal.Width,data=iris)
+dotplot(Sepal.Length~Sepal.Width,data=iris)
+```
 ## Yuanhui	Sui
 ## Shanfeng	Tang
 ## Russell	Taylor
